@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		B83DE8E32605D6F500EFF436 /* BugMaruGothic.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = BugMaruGothic.ttc; sourceTree = "<group>"; };
 		B83DE8E52605D94F00EFF436 /* jackeyfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = jackeyfont.ttf; sourceTree = "<group>"; };
-		B8EA22A825F37AEB009383A0 /* 天地創造設計部practice0304.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "天地創造設計部practice0304.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EA22A825F37AEB009383A0 /* creatAnimalEbook0304.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = creatAnimalEbook0304.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EA22AB25F37AEB009383A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8EA22AD25F37AEB009383A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B8EA22AF25F37AEB009383A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		B8EA229F25F37AEB009383A0 = {
 			isa = PBXGroup;
 			children = (
-				B8EA22AA25F37AEB009383A0 /* 天地創造設計部practice0304 */,
+				B8EA22AA25F37AEB009383A0 /* creatAnimalEbook0304 */,
 				B8EA22A925F37AEB009383A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		B8EA22A925F37AEB009383A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8EA22A825F37AEB009383A0 /* 天地創造設計部practice0304.app */,
+				B8EA22A825F37AEB009383A0 /* creatAnimalEbook0304.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8EA22AA25F37AEB009383A0 /* 天地創造設計部practice0304 */ = {
+		B8EA22AA25F37AEB009383A0 /* creatAnimalEbook0304 */ = {
 			isa = PBXGroup;
 			children = (
 				B8EA22AB25F37AEB009383A0 /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				B8EA22B625F37AEC009383A0 /* LaunchScreen.storyboard */,
 				B8EA22B925F37AEC009383A0 /* Info.plist */,
 			);
-			path = "天地創造設計部practice0304";
+			path = creatAnimalEbook0304;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B8EA22A725F37AEB009383A0 /* 天地創造設計部practice0304 */ = {
+		B8EA22A725F37AEB009383A0 /* creatAnimalEbook0304 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8EA22BC25F37AEC009383A0 /* Build configuration list for PBXNativeTarget "天地創造設計部practice0304" */;
+			buildConfigurationList = B8EA22BC25F37AEC009383A0 /* Build configuration list for PBXNativeTarget "creatAnimalEbook0304" */;
 			buildPhases = (
 				B8EA22A425F37AEB009383A0 /* Sources */,
 				B8EA22A525F37AEB009383A0 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "天地創造設計部practice0304";
+			name = creatAnimalEbook0304;
 			productName = "天地創造設計部practice0304";
-			productReference = B8EA22A825F37AEB009383A0 /* 天地創造設計部practice0304.app */;
+			productReference = B8EA22A825F37AEB009383A0 /* creatAnimalEbook0304.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B8EA22A325F37AEB009383A0 /* Build configuration list for PBXProject "天地創造設計部practice0304" */;
+			buildConfigurationList = B8EA22A325F37AEB009383A0 /* Build configuration list for PBXProject "creatAnimalEbook0304" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B8EA22A725F37AEB009383A0 /* 天地創造設計部practice0304 */,
+				B8EA22A725F37AEB009383A0 /* creatAnimalEbook0304 */,
 			);
 		};
 /* End PBXProject section */
@@ -224,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -279,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,16 +292,15 @@
 		B8EA22BD25F37AEC009383A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JUGANMX232;
-				INFOPLIST_FILE = "天地創造設計部practice0304/Info.plist";
+				DEVELOPMENT_TEAM = 76TVX4RXYS;
+				INFOPLIST_FILE = "$(SRCROOT)/creatAnimalEbook0304/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Nor.-------practice0304";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nor.creatAnimalEbook0304;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,16 +310,15 @@
 		B8EA22BE25F37AEC009383A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JUGANMX232;
-				INFOPLIST_FILE = "天地創造設計部practice0304/Info.plist";
+				DEVELOPMENT_TEAM = 76TVX4RXYS;
+				INFOPLIST_FILE = "$(SRCROOT)/creatAnimalEbook0304/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Nor.-------practice0304";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nor.creatAnimalEbook0304;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8EA22A325F37AEB009383A0 /* Build configuration list for PBXProject "天地創造設計部practice0304" */ = {
+		B8EA22A325F37AEB009383A0 /* Build configuration list for PBXProject "creatAnimalEbook0304" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8EA22BA25F37AEC009383A0 /* Debug */,
@@ -339,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8EA22BC25F37AEC009383A0 /* Build configuration list for PBXNativeTarget "天地創造設計部practice0304" */ = {
+		B8EA22BC25F37AEC009383A0 /* Build configuration list for PBXNativeTarget "creatAnimalEbook0304" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8EA22BD25F37AEC009383A0 /* Debug */,

@@ -19,7 +19,7 @@
         <!--片頭曲試聽-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="天地創造設計部practice0304" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="creatAnimalEbook0304" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6118" y="1567"/>
+            <point key="canvasLocation" x="5378" y="1567"/>
         </scene>
         <!--故事介紹-->
         <scene sceneID="Vju-2G-TAu">
@@ -746,7 +746,7 @@
         <!--首頁-->
         <scene sceneID="7Bq-Oc-Dze">
             <objects>
-                <viewController id="a1r-Tf-WmA" customClass="ViewController" customModule="天地創造設計部practice0304" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="a1r-Tf-WmA" customClass="ViewController" customModule="creatAnimalEbook0304" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lV1-lp-ifI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -916,7 +916,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B1g-R5-nwI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5378" y="1567"/>
+            <point key="canvasLocation" x="4436" y="1567"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
