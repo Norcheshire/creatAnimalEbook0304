@@ -1,47 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="orD-se-gWq">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QbT-6B-tTz">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="BugMaruGothic.ttc">
+            <string>BugMaruGothic</string>
+        </array>
+        <array key="jackeyfont.ttf">
+            <string>JackeyFont</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--片頭曲試聽-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="天地創造設計部practice0304" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="❤︎❤︎❤︎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7R-L6-AXd">
-                                <rect key="frame" x="147" y="465" width="96" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="【96猫】Give It Up？/オリジナル" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7R-L6-AXd">
+                                <rect key="frame" x="16" y="472" width="343" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="20"/>
                                 <color key="textColor" red="0.70980392156862748" green="0.51372549019607838" blue="0.55294117647058827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lar-7V-5oZ">
-                                <rect key="frame" x="145" y="408" width="100" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
-                                <state key="normal" title="START">
-                                    <color key="titleColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="J5b-GS-Ac3" kind="show" id="qBT-Dm-YyK"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="冥王星" translatesAutoresizingMaskIntoConstraints="NO" id="Uze-i7-thT">
-                                <rect key="frame" x="108" y="198" width="175" height="175"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="片頭曲圖片" translatesAutoresizingMaskIntoConstraints="NO" id="Uze-i7-thT">
+                                <rect key="frame" x="59" y="194" width="256" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
-                                        <integer key="value" value="50"/>
+                                        <integer key="value" value="30"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lar-7V-5oZ">
+                                <rect key="frame" x="60" y="534" width="270" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="27"/>
+                                <state key="normal" title="點擊圖片試聽片頭曲">
+                                    <color key="titleColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.youtube.com/watch?v=QrHXsdhHULE" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V6c-iP-W9B">
+                                <rect key="frame" x="59" y="194" width="256" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.98039215686274506" green="0.88235294117647056" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -51,65 +67,897 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <navigationItem key="navigationItem" id="RPx-vN-ON1"/>
+                    <navigationItem key="navigationItem" title="片頭曲試聽" id="RPx-vN-ON1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="957" y="112"/>
+            <point key="canvasLocation" x="6118" y="1567"/>
         </scene>
-        <!--View Controller-->
+        <!--故事介紹-->
         <scene sceneID="Vju-2G-TAu">
             <objects>
                 <viewController id="J5b-GS-Ac3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="utH-Ix-ohb">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="50628107627_8a93c72a58_b" translatesAutoresizingMaskIntoConstraints="NO" id="s0d-Nh-J8Z">
-                                <rect key="frame" x="0.0" y="286" width="390" height="273"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="故事介紹" translatesAutoresizingMaskIntoConstraints="NO" id="Ta9-H6-XM6">
+                                <rect key="frame" x="-66" y="135" width="522" height="574"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="洗內！！！！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVR-5S-99K">
-                                <rect key="frame" x="44" y="183" width="302" height="60"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ilR-Dr-ela">
+                                <rect key="frame" x="-11" y="132" width="411" height="580"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uef-Pp-aud">
+                                <rect key="frame" x="47" y="172" width="280" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">神因為覺得創造生物太麻煩，便將此環節交給設計部門代工生產。神會簡短敘述希望創造的生物，而設計部的員工開會並提案討論，再交付工程師試著執行。工程師可能會以不符合物理法則或不符生物機制為由駁回，最終採用的方案都是現實中具有的生物。設計師之間也會彼此競爭，設計出各種具天敵關係的生物，進而產生食物鏈。
+
+以科學普及的方式講述生物學知識，同時提及商業設計面對客戶要求時遭遇的困境。</string>
+                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
                                 <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1b1-UN-XGy"/>
-                        <color key="backgroundColor" red="0.98039215690000003" green="0.88235294119999996" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4UL-cJ-jxf"/>
+                    <navigationItem key="navigationItem" title="故事介紹" id="4UL-cJ-jxf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HTR-wS-o6g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1803" y="112"/>
+            <point key="canvasLocation" x="5378.3999999999996" y="-580.78817733990149"/>
         </scene>
-        <!--Item-->
-        <scene sceneID="zFg-ng-6St">
+        <!--人物介紹-->
+        <scene sceneID="spJ-Rx-oEt">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="orD-se-gWq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="square.and.arrow.down.on.square.fill" catalog="system" id="AIs-MX-Nvf"/>
+                <tableViewController id="IXk-Gp-HLa" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tAq-WO-5v3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="Isz-fW-Fls">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="196" id="2bM-mq-7jU">
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="196"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2bM-mq-7jU" id="F8g-NW-kzq">
+                                            <rect key="frame" x="0.0" y="0.0" width="349.33333333333331" height="196"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="下田" translatesAutoresizingMaskIntoConstraints="NO" id="njE-7A-gtL">
+                                                    <rect key="frame" x="20" y="23" width="136" height="151"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="下田" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edo-GZ-cgK">
+                                                    <rect key="frame" x="170" y="86" width="50" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
+                                                    <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="1Ov-vU-FAb" kind="show" id="7su-yf-Jvd"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="196" id="Ufr-Yq-Scu">
+                                        <rect key="frame" x="0.0" y="220.33333396911621" width="375" height="196"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ufr-Yq-Scu" id="ghO-6b-zHw">
+                                            <rect key="frame" x="0.0" y="0.0" width="349.33333333333331" height="196"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="上田" translatesAutoresizingMaskIntoConstraints="NO" id="PcY-a4-dBq">
+                                                    <rect key="frame" x="20" y="23" width="136" height="151"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="上田" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QTQ-xo-jZh">
+                                                    <rect key="frame" x="170" y="86" width="50" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
+                                                    <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="FZv-MR-YPJ" kind="show" id="EXQ-EZ-eGr"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="196" id="T1E-89-Nmi">
+                                        <rect key="frame" x="0.0" y="416.33333396911621" width="375" height="196"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T1E-89-Nmi" id="MqB-N3-hLg">
+                                            <rect key="frame" x="0.0" y="0.0" width="349.33333333333331" height="196"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="土星" translatesAutoresizingMaskIntoConstraints="NO" id="sFw-NS-Xa0">
+                                                    <rect key="frame" x="20" y="23" width="136" height="151"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="土星（土屋）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H7j-Ff-jeN">
+                                                    <rect key="frame" x="170" y="86" width="150" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
+                                                    <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.97254901960784312" green="0.92941176470588238" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="Mzb-64-AQL" kind="show" id="vXO-dG-xAy"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="196" id="DJa-ls-tqe">
+                                        <rect key="frame" x="0.0" y="612.33333396911621" width="375" height="196"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DJa-ls-tqe" id="ZpU-ht-93G">
+                                            <rect key="frame" x="0.0" y="0.0" width="349.33333333333331" height="196"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="木村" translatesAutoresizingMaskIntoConstraints="NO" id="NTt-8N-hZ6">
+                                                    <rect key="frame" x="20" y="23" width="136" height="151"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="木星（木村）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jId-9h-M9o">
+                                                    <rect key="frame" x="170" y="86" width="150" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
+                                                    <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="GtQ-Om-Xww" kind="show" id="5ll-O1-MkD"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="196" id="ogi-1g-xni">
+                                        <rect key="frame" x="0.0" y="808.33333396911621" width="375" height="196"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ogi-1g-xni" id="5or-zh-MRy">
+                                            <rect key="frame" x="0.0" y="0.0" width="349.33333333333331" height="196"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="水島" translatesAutoresizingMaskIntoConstraints="NO" id="dOO-7b-CEe">
+                                                    <rect key="frame" x="20" y="23" width="136" height="151"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="水星（水島）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njh-Ii-Eje">
+                                                    <rect key="frame" x="170" y="86" width="150" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
+                                                    <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="wxQ-Ys-h4F" kind="show" id="ldr-0w-2Ze"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="196" id="ikF-bl-48p">
+                                        <rect key="frame" x="0.0" y="1004.3333339691162" width="375" height="196"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ikF-bl-48p" id="PaL-XZ-GjL">
+                                            <rect key="frame" x="0.0" y="0.0" width="349.33333333333331" height="196"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="金星" translatesAutoresizingMaskIntoConstraints="NO" id="JXp-bo-Dw0">
+                                                    <rect key="frame" x="20" y="23" width="136" height="151"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="金星（金森）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9R-lP-mTZ">
+                                                    <rect key="frame" x="171" y="86" width="150" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
+                                                    <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="Oef-kc-Xg1" kind="show" id="RO5-JF-7jn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="196" id="f4X-od-iCQ">
+                                        <rect key="frame" x="0.0" y="1200.3333339691162" width="375" height="196"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="f4X-od-iCQ" id="WgQ-O8-QFa">
+                                            <rect key="frame" x="0.0" y="0.0" width="349.33333333333331" height="196"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="冥王星２" translatesAutoresizingMaskIntoConstraints="NO" id="ntt-IA-qQA">
+                                                    <rect key="frame" x="20" y="23" width="136" height="151"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="冥王星（冥戶）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qoL-kJ-Bg6">
+                                                    <rect key="frame" x="172" y="86" width="175" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
+                                                    <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="NGh-5G-3Bs" kind="show" id="1Re-Rh-vjE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="196" id="aSw-4u-i4V">
+                                        <rect key="frame" x="0.0" y="1396.3333339691162" width="375" height="196"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aSw-4u-i4V" id="IKV-gk-ei2">
+                                            <rect key="frame" x="0.0" y="0.0" width="349.33333333333331" height="196"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="海王星" translatesAutoresizingMaskIntoConstraints="NO" id="hYa-KH-R7D">
+                                                    <rect key="frame" x="20" y="23" width="136" height="151"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="海王星（海原）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Fb-nJ-6gG">
+                                                    <rect key="frame" x="170" y="86" width="175" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
+                                                    <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="2YJ-gz-MxX" kind="show" id="Q8i-NS-K3i"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="196" id="Hox-JT-F26">
+                                        <rect key="frame" x="0.0" y="1592.3333339691162" width="375" height="196"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hox-JT-F26" id="gDw-o9-qFO">
+                                            <rect key="frame" x="0.0" y="0.0" width="349.33333333333331" height="196"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="火星" translatesAutoresizingMaskIntoConstraints="NO" id="V1G-HQ-Qmw">
+                                                    <rect key="frame" x="20" y="23" width="136" height="151"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="火星（火口）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2u7-pb-rM3">
+                                                    <rect key="frame" x="170" y="86" width="150" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
+                                                    <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="yEe-8L-y8B" kind="show" id="JnA-BO-dZy"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="IXk-Gp-HLa" id="nsY-ap-dwt"/>
+                            <outlet property="delegate" destination="IXk-Gp-HLa" id="Njv-as-SFU"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="人物介紹" id="BbK-dm-Wtg"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L37-OQ-v8h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5378.3999999999996" y="111.57635467980296"/>
+        </scene>
+        <!--水星（水島）-->
+        <scene sceneID="v6l-zf-hlz">
+            <objects>
+                <viewController id="wxQ-Ys-h4F" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oN3-ir-9Kb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="水島封面" translatesAutoresizingMaskIntoConstraints="NO" id="dQ5-gg-mvb">
+                                <rect key="frame" x="0.0" y="138" width="390" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8dh-4S-Rqw">
+                                <rect key="frame" x="-7" y="145" width="411" height="573"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="黑髮，身穿藍色T桖、戴著眼鏡的青年。代表作是蛇，學生時期因為喜歡畫帥氣的東西而設計出了龍，但遭駁回而受到打擊並視其為自己的黑歷史。設計作品有乒乓球樹海綿、金花蛇、管水母、鴕鳥等。" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcj-Ba-MSd">
+                                <rect key="frame" x="47" y="181" width="280" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="30"/>
+                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yFA-bT-yhn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="水星（水島）" id="gGx-zM-Tr2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W60-3t-Kvs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9028" y="-580.04926108374389"/>
+        </scene>
+        <!--下田-->
+        <scene sceneID="wLt-Wv-Hmv">
+            <objects>
+                <viewController id="1Ov-vU-FAb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d1T-Qv-67X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="下田封面" translatesAutoresizingMaskIntoConstraints="NO" id="xtn-8j-eV9">
+                                <rect key="frame" x="0.0" y="138" width="390" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="woZ-2y-akw">
+                                <rect key="frame" x="-7" y="145" width="411" height="573"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="本作的男主角，負責神明與設計部之間聯絡人員的新人天使，身穿背後有白色羽翼圖案的黑色西裝的少年。個性認真而善良，特別不擅長應付蟲與青蛙。" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rt9-fy-lg1">
+                                <rect key="frame" x="47" y="181" width="280" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="30"/>
+                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1Bx-pp-rfB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="下田" id="j9K-Gc-bez"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uMc-o7-mO8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6210.3999999999996" y="-580.04926108374389"/>
+        </scene>
+        <!--上田-->
+        <scene sceneID="7jc-fF-6s5">
+            <objects>
+                <viewController id="FZv-MR-YPJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="544-T7-JBy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="上田封面" translatesAutoresizingMaskIntoConstraints="NO" id="THh-Gc-NLF">
+                                <rect key="frame" x="0.0" y="138" width="390" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ssS-fs-g9w">
+                                <rect key="frame" x="-7" y="145" width="411" height="573"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="金色長髮、身穿黑色西裝的大姊天使，下田的上司，同為神明和設計部之間的聯絡人員。雖然看似溫柔氣質但實際上相當強悍，能夠單手抓住飛行中的巨型昆蟲。" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byD-Iy-cZ7">
+                                <rect key="frame" x="47" y="181" width="280" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="30"/>
+                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gjY-rs-Qza"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="上田" id="NFW-Ib-kcf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vzT-y7-n6d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6944.8000000000002" y="-580.04926108374389"/>
+        </scene>
+        <!--土星（土屋）-->
+        <scene sceneID="IYL-oN-UWs">
+            <objects>
+                <viewController id="Mzb-64-AQL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SjB-oZ-Wrk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="老頭封面" translatesAutoresizingMaskIntoConstraints="NO" id="SFD-Tg-PDw">
+                                <rect key="frame" x="0.0" y="138" width="390" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6nP-Uf-nXZ">
+                                <rect key="frame" x="-7" y="138" width="411" height="580"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="身穿藍色上衣、咖啡色浴衣的老翁，代表作品是馬。設計部室長，由於對馬這個作品太自豪所以時常以馬為基礎來修改成別的生物，但除了海馬得以採用之外，獨角獸、天馬等都因身體條件無法適應而被駁回。設計作品有狼、海馬、斑馬等。" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EwU-rM-XAI">
+                                <rect key="frame" x="47" y="178" width="280" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="30"/>
+                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Jv-oP-rKf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="土星（土屋）" id="HtS-0G-eGi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u56-oX-FHk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7642.3999999999996" y="-580.04926108374389"/>
+        </scene>
+        <!--木星（木村）-->
+        <scene sceneID="hx4-2d-d9I">
+            <objects>
+                <viewController id="GtQ-Om-Xww" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mxP-rB-Z1y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="木村封面" translatesAutoresizingMaskIntoConstraints="NO" id="abb-J5-jjM">
+                                <rect key="frame" x="0.0" y="138" width="390" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2BK-Y5-mlw">
+                                <rect key="frame" x="-7" y="138" width="411" height="580"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="棕髮，身穿綠色襯衫的青年，代表作是牛。總是笑瞇瞇的樂天派且非常愛吃，只要是他做出來的作品或喜歡的作品都會想品嘗看看是否美味。設計作品有紅眼樹蛙、馴鹿、海蔘、海星、螃蟹、龍蝦等。" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKa-ug-ZLR">
+                                <rect key="frame" x="47" y="178" width="280" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="30"/>
+                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sv1-d3-5sB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="木星（木村）" id="o7b-K9-mYb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DRj-gF-UIW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8314.3999999999996" y="-580.04926108374389"/>
+        </scene>
+        <!--金星（金森）-->
+        <scene sceneID="l1C-R0-D5T">
+            <objects>
+                <viewController id="Oef-kc-Xg1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K75-yj-dQH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="金星封面" translatesAutoresizingMaskIntoConstraints="NO" id="ZwU-9b-FcJ">
+                                <rect key="frame" x="0.0" y="138" width="390" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lVo-Mz-YY0">
+                                <rect key="frame" x="-7" y="138" width="411" height="580"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="桃紅色長髮綁辮子並穿著紫色衣褲與高跟鞋的男大姐，代表作是鳥，愛好時尚、美麗的事物。設計作品有織布鳥、蛇鷲、蜂鳥、馬鐵菊頭蝠等。" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXv-dM-5qe">
+                                <rect key="frame" x="47" y="178" width="280" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="30"/>
+                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="so0-9X-XIb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="金星（金森）" id="tCQ-wT-oBX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BAQ-qR-CsE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6210.3999999999996" y="111.57635467980296"/>
+        </scene>
+        <!--冥王星（冥戶）-->
+        <scene sceneID="13S-KY-CUz">
+            <objects>
+                <viewController id="NGh-5G-3Bs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EzC-wk-t2F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="冥王星封面" translatesAutoresizingMaskIntoConstraints="NO" id="JGm-YY-fbw">
+                                <rect key="frame" x="0.0" y="138" width="390" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YbO-lc-mwD">
+                                <rect key="frame" x="-7" y="138" width="411" height="580"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="粉紅色頭髮綁成雙馬尾，穿著艷色歌德蘿莉服的少女，代表作品是箭毒蛙。帶有腹黑個性，雖然喜歡可愛的事物但其對於可愛的品味標準與他人大相逕庭，導致設計出來的生物經常有許多恐怖的特徵或習性。設計作品有鐵線蟲、無尾熊、烏賊、巨烏賊、鮟鱇魚等。" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tj0-wv-j9g">
+                                <rect key="frame" x="47" y="178" width="280" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="30"/>
+                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7tV-pE-0ci"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="冥王星（冥戶）" id="vXj-M4-XqJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rWO-PZ-4lI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6943.1999999999998" y="111.57635467980296"/>
+        </scene>
+        <!--火星（火口）-->
+        <scene sceneID="Iq8-yY-nss">
+            <objects>
+                <viewController id="yEe-8L-y8B" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hHZ-M4-Umm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="火星封面" translatesAutoresizingMaskIntoConstraints="NO" id="hpI-0X-xXM">
+                                <rect key="frame" x="0.0" y="138" width="390" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UEY-vo-TOj">
+                                <rect key="frame" x="-7" y="138" width="411" height="580"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="橘色頭髮綁著高馬尾，頭上戴著護目鏡，穿著紅色的工作服的女子，設計部的工程師。負責在打樣室中將設計師的設計稿實體做成樣品，並分析其身體條件的缺陷提供改進參考。" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYA-H8-U93">
+                                <rect key="frame" x="47" y="178" width="280" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="30"/>
+                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aVh-gp-h3U"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="火星（火口）" id="QVV-rY-IbF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hUa-zU-cKx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7652" y="111.57635467980296"/>
+        </scene>
+        <!--海王星（海原）-->
+        <scene sceneID="bDD-1y-kFm">
+            <objects>
+                <viewController id="2YJ-gz-MxX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aJ2-py-TGk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="海王星封面" translatesAutoresizingMaskIntoConstraints="NO" id="Y8U-4p-cOp">
+                                <rect key="frame" x="0.0" y="138" width="390" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K2h-4V-dLI">
+                                <rect key="frame" x="-7" y="145" width="411" height="573"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="有棕色長髮以及短鬍子、身穿橘黃色毛衣，體格高大壯碩的巨漢，代表作為熊。個性溫厚，但也有著不服輸的一面，特別喜歡創作可愛的生物。設計作品有食蟻獸、犰狳、海豚、抹香鯨、海獺等。" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofg-fJ-T1Q">
+                                <rect key="frame" x="47" y="181" width="280" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="30"/>
+                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7yh-a8-xqE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="海王星（海原）" id="VKB-6Q-fiM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5vH-eC-hBW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8356" y="111.57635467980296"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="mCu-D5-g8i">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="QbT-6B-tTz" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lTj-aA-llq">
-                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                    <navigationItem key="navigationItem" id="j0b-aq-9Qg"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ljx-Ko-9Es">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Ryb-cB-nnp" kind="relationship" relationship="viewControllers" id="rqS-V4-HGW"/>
+                        <segue destination="C4p-r5-LQI" kind="relationship" relationship="viewControllers" id="M37-yU-veK"/>
+                        <segue destination="EU1-4q-ryP" kind="relationship" relationship="viewControllers" id="XhY-rr-DES"/>
+                        <segue destination="5yv-rs-1mn" kind="relationship" relationship="viewControllers" id="qix-8V-0hn"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aPy-Xw-dPS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3507.6923076923076" y="111.61137440758293"/>
+        </scene>
+        <!--首頁-->
+        <scene sceneID="7Bq-Oc-Dze">
+            <objects>
+                <viewController id="a1r-Tf-WmA" customClass="ViewController" customModule="天地創造設計部practice0304" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lV1-lp-ifI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mDa-8c-EAQ">
+                                <rect key="frame" x="0.0" y="257" width="376" height="298"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="V50-Qd-Pgj">
+                                        <rect key="frame" x="0.0" y="15" width="1125" height="268"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVF-9H-SVz">
+                                                <rect key="frame" x="412.66666666666663" y="12" width="300" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="人物介紹"/>
+                                                <connections>
+                                                    <segue destination="IXk-Gp-HLa" kind="show" id="g9R-Ve-uhi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcO-MU-RXi">
+                                                <rect key="frame" x="787.66666666666663" y="12" width="300" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="片頭曲試聽"/>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="cW5-Dd-pzP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgo-il-j9B">
+                                                <rect key="frame" x="37.666666666666664" y="12" width="300" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="故事介紹-1"/>
+                                                <connections>
+                                                    <segue destination="J5b-GS-Ac3" kind="show" id="4DA-xI-Vek"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="故事介紹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SyB-RG-fSu">
+                                                <rect key="frame" x="130" y="229" width="100" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
+                                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="人物介紹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLc-aQ-fZ1">
+                                                <rect key="frame" x="512" y="229" width="100" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
+                                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="先聽個歌吧～" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUy-0W-LMV">
+                                                <rect key="frame" x="862" y="229" width="150" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="BugMaruGothic" family="BugMaruGothic" pointSize="25"/>
+                                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="w5l-49-kyr"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="4ay-Pb-Jmd"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Wxo-g6-zOv"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="1125" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="滑動選取要先看的項目" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGZ-kU-iig">
+                                <rect key="frame" x="38" y="184" width="300" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="JackeyFont" family="JackeyFont" pointSize="30"/>
+                                <color key="textColor" red="0.42745098040000001" green="0.40784313729999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UqX-b4-pdp"/>
+                        <color key="backgroundColor" red="0.90980392156862744" green="0.90980392156862744" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                <integer key="value" value="40"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <navigationItem key="navigationItem" title="首頁" id="9Jd-zZ-POJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E00-Xn-Ypw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5378.3999999999996" y="821.67487684729065"/>
+        </scene>
+        <!--人物介紹-->
+        <scene sceneID="X3g-fV-A6k">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EU1-4q-ryP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="人物介紹" image="person.2.fill" catalog="system" id="acl-Re-hib"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="R4T-cH-eL9"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vbK-ir-xOF">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="sZK-du-bAh"/>
+                        <segue destination="IXk-Gp-HLa" kind="relationship" relationship="rootViewController" id="0Tl-Mv-6fb"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rHt-Sl-IhX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H62-ON-tZo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125" y="112"/>
+            <point key="canvasLocation" x="4436" y="111.57635467980296"/>
+        </scene>
+        <!--首頁-->
+        <scene sceneID="Tjx-Od-RTI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ryb-cB-nnp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首頁" image="ladybug.fill" catalog="system" id="HQr-SL-hIE"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="h6E-Dr-23a">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="a1r-Tf-WmA" kind="relationship" relationship="rootViewController" id="cpI-0Y-1cw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i7Q-Zc-1uL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4436" y="821.67487684729065"/>
+        </scene>
+        <!--故事介紹-->
+        <scene sceneID="jKs-Nq-HI3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="C4p-r5-LQI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="故事介紹" image="book.fill" catalog="system" id="Uu9-th-x2y"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="6XX-lj-ksZ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kq8-HO-J48">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="J5b-GS-Ac3" kind="relationship" relationship="rootViewController" id="TWt-t6-4AY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U5w-fa-fp4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4436" y="-580.78817733990149"/>
+        </scene>
+        <!--片頭曲-->
+        <scene sceneID="hye-fG-B2b">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5yv-rs-1mn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="片頭曲" image="hare.fill" catalog="system" id="q4U-5R-eBk"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="96J-1m-quG"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uMg-Ax-yce">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="B6y-dr-odY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B1g-R5-nwI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5378" y="1567"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="g9R-Ve-uhi"/>
+        <segue reference="TWt-t6-4AY"/>
+        <segue reference="B6y-dr-odY"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.42745098039215684" green="0.40784313725490196" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
-        <image name="50628107627_8a93c72a58_b" width="1024" height="576"/>
-        <image name="square.and.arrow.down.on.square.fill" catalog="system" width="122" height="128"/>
-        <image name="冥王星" width="884" height="884"/>
+        <image name="book.fill" catalog="system" width="128" height="102"/>
+        <image name="hare.fill" catalog="system" width="128" height="91"/>
+        <image name="ladybug.fill" catalog="system" width="128" height="128"/>
+        <image name="person.2.fill" catalog="system" width="128" height="80"/>
+        <image name="上田" width="1024" height="576"/>
+        <image name="上田封面" width="642" height="890"/>
+        <image name="下田" width="644" height="362"/>
+        <image name="下田封面" width="636" height="888"/>
+        <image name="人物介紹" width="1000" height="660"/>
+        <image name="冥王星封面" width="512" height="512"/>
+        <image name="冥王星２" width="1024" height="576"/>
+        <image name="土星" width="644" height="362"/>
+        <image name="故事介紹" width="1440" height="2037"/>
+        <image name="故事介紹-1" width="800" height="533"/>
+        <image name="木村" width="1024" height="576"/>
+        <image name="木村封面" width="431" height="600"/>
+        <image name="水島" width="1920" height="1080"/>
+        <image name="水島封面" width="640" height="914"/>
+        <image name="海王星" width="416" height="234"/>
+        <image name="海王星封面" width="680" height="680"/>
+        <image name="火星" width="644" height="362"/>
+        <image name="火星封面" width="377" height="540"/>
+        <image name="片頭曲圖片" width="800" height="799"/>
+        <image name="片頭曲試聽" width="1280" height="720"/>
+        <image name="老頭封面" width="299" height="169"/>
+        <image name="金星" width="1024" height="576"/>
+        <image name="金星封面" width="1165" height="1165"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

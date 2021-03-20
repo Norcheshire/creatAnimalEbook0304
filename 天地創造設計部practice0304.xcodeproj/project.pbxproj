@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B83DE8E42605D6F500EFF436 /* BugMaruGothic.ttc in Resources */ = {isa = PBXBuildFile; fileRef = B83DE8E32605D6F500EFF436 /* BugMaruGothic.ttc */; };
+		B83DE8E62605D94F00EFF436 /* jackeyfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83DE8E52605D94F00EFF436 /* jackeyfont.ttf */; };
 		B8EA22AC25F37AEB009383A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EA22AB25F37AEB009383A0 /* AppDelegate.swift */; };
 		B8EA22AE25F37AEB009383A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EA22AD25F37AEB009383A0 /* SceneDelegate.swift */; };
 		B8EA22B025F37AEB009383A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EA22AF25F37AEB009383A0 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B83DE8E32605D6F500EFF436 /* BugMaruGothic.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = BugMaruGothic.ttc; sourceTree = "<group>"; };
+		B83DE8E52605D94F00EFF436 /* jackeyfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = jackeyfont.ttf; sourceTree = "<group>"; };
 		B8EA22A825F37AEB009383A0 /* 天地創造設計部practice0304.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "天地創造設計部practice0304.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EA22AB25F37AEB009383A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8EA22AD25F37AEB009383A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				B8EA22AB25F37AEB009383A0 /* AppDelegate.swift */,
+				B83DE8E32605D6F500EFF436 /* BugMaruGothic.ttc */,
+				B83DE8E52605D94F00EFF436 /* jackeyfont.ttf */,
 				B8EA22AD25F37AEB009383A0 /* SceneDelegate.swift */,
 				B8EA22AF25F37AEB009383A0 /* ViewController.swift */,
 				B8EA22B125F37AEB009383A0 /* Main.storyboard */,
@@ -127,6 +133,8 @@
 				B8EA22B825F37AEC009383A0 /* LaunchScreen.storyboard in Resources */,
 				B8EA22B525F37AEC009383A0 /* Assets.xcassets in Resources */,
 				B8EA22B325F37AEB009383A0 /* Main.storyboard in Resources */,
+				B83DE8E62605D94F00EFF436 /* jackeyfont.ttf in Resources */,
+				B83DE8E42605D6F500EFF436 /* BugMaruGothic.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JUGANMX232;
 				INFOPLIST_FILE = "天地創造設計部practice0304/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JUGANMX232;
 				INFOPLIST_FILE = "天地創造設計部practice0304/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
